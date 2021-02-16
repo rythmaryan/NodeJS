@@ -12,12 +12,11 @@ After this you are ready to run your first nodsJS code.
 Open terminal:" Ctrl+Alt+T "
 
 // Now run the following sequence of code on termminal
-" mkdir first-app "
-" cd first-app "
+" mkdir first-app " -->
+" cd first-app " -->
 " code . "
 
 // Now write your code on visual studio and save it as app.js
-// I am writing a sample code as:
 function name(n1){
 console.log('Hello' + n1);
 }

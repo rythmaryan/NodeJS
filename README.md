@@ -1,5 +1,5 @@
 # NodeJS
-// Install node on Linux platform using
+// Install node on Linux platform using /n
 " sudo apt install nodejs "
 
 // If you already install node, check the version using

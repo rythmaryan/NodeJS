@@ -45,5 +45,21 @@ emitter.on('Message Logged',function(){
     console.log('Message Received');
 });
 
+// Node HTTP Module localhost:3000 at system
+
+const http =require('http');
+const s= http.createServer((req,res)=>{
+    if(req.url==='/'){
+        res.write('Hello Aryan');
+        res.end();
+    }
+});
+
+s.on('connection',(socket)=>{
+    console.log('New Connection')});
+s.listen(3000);
+
+console.log('Listening at port 3000...');
+
 emitter.emit('Message Logged'); 
 
